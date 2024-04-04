@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    background: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+}
+
+#home-icon {
+    width: 70px;
+    padding: 20px;
+    margin-top: 1em;
+}
+
+.yazi {
+    margin-left: 3em;
+}
+
+.dark-mode {
+    background-color: white;
+    color: black;
+}
+
+table {
+    background-color: #73f386d0;
+    width: 560px;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+    margin-left: 3em;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    color: white;
+/
+}
+
+td {
+    margin-left: 2em;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+/
+}
+
+
+h1 h2 h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+
+#dark-mode-icon {
+    width: 3em;
+    position: absolute;
+    top: 48px;
+    left: 8%;
+}
+
+
+img {
+    display: block;
+
+}
+
+strong {
+    font-weight: 600;
+    color: #e5a260;
+}
+
+
+.my-link:visited {
+    color: rgba(154, 11, 11, 0.78);
+    background-color: transparent;
+
+}
+
+.my-link:hover {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+
+}
+
+
+#linkedin-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer {
+    text-align: center;
+}
+
+
+

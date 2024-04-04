@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Maç 1</title>
+
+</head>
+<body>
+<a href="index.html"><img id="home-icon" src="img/home-icon.jpg"></div></a>
+<img id="dark-mode-icon" src="img/light-icon.png" alt="dark mode" onclick="myFunction()">
+
+
+
+
+<p class="yazi">Admin Rating:</p>
+
+
+<figure>
+    <table>
+        <tr>
+            <th width="30">Oyuncu</th>
+            <th width="10">Puan</th>
+        </tr>
+        <tr>
+            <td>Apo</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Gürkan</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Barış</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Ben</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Abdüş</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Abdüş Ark</a></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>İbo</a></td>
+            <td>0</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+</figure>
+<br>
+<script>
+    function myFunction() {
+        const darkMode = sessionStorage.getItem('darkMode');
+
+        if (darkMode === 'true') {
+            sessionStorage.setItem('darkMode', 'false');
+            document.body.classList.remove('dark-mode');
+        } else {
+            sessionStorage.setItem('darkMode', 'true');
+            document.body.classList.add('dark-mode');
+        }
+    }
+</script>
+</body>
+<footer>
+    <a href="https://www.linkedin.com/in/galiptalhaerbas/" target="_blank"><img id="linkedin-icon"
+                                                                                src="img/LinkedIn_icon.svg.webp"
+                                                                                alt="LinkedIn Icon"></a>
+
+
+    <p>Bu web sitesinin kaynak kodlarına <a class="my-link" href="https://github.com/galiperbas/HaliSaha"
+                                            target="_blank">Github üzerinden</a> ulaşabilirsiniz
+    </p>
+</footer>
+</html>
+
+
+</html>

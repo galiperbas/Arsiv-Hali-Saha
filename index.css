@@ -1,0 +1,103 @@
+body {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: white;
+    color: black;
+    .mac2-rengi{
+        background: black;
+        color: white;
+    }
+}
+
+#dark-mode-icon {
+    width: 2em;
+    position: absolute;
+    top: 58px;
+    right: 5%;
+
+}
+
+h1, footer {
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.maclar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.mac-kutusu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.mac-kutusu:hover {
+    background-color: #00ff15;
+
+}
+
+.mac-kutusu h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.mac1-rengi {
+    background-color: #f44336;
+}
+
+.mac2-rengi {
+    background-color: rgb(176, 162, 162);
+    color: black;
+}
+
+.mac3-rengi {
+    background-color: #3f51b5;
+}
+
+p {
+    margin: 0;
+}
+
+.my-link:visited {
+    color: rgba(154, 11, 11, 0.78);
+    background-color: transparent;
+
+}
+
+.my-link:hover {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+
+}
+
+
+#linkedin-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
