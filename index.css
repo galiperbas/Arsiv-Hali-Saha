@@ -5,6 +5,25 @@ body {
     font-size: 25px;
 }
 
+.header {
+    text-align: center;
+  text-transform: uppercase;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+
+  img {
+    width: 2em;
+    margin: 0 auto;
+
+
+  }
+
+}
+
 .dark-mode {
     background-color: white;
     color: black;
@@ -14,13 +33,6 @@ body {
     }
 }
 
-#dark-mode-icon {
-    width: 2em;
-    position: absolute;
-    top: 58px;
-    right: 5%;
-
-}
 
 h1, footer {
     text-align: center;
@@ -40,7 +52,7 @@ hr {
 
 .mac-kutusu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 200px;
